@@ -3,10 +3,10 @@ $(function() {
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
-            // additional error messages or events
+            // swal("Oops!", "Something went wrong over here. Please, try again!", "error")
         },
         submitSuccess: function($form, event) {
-            
+            // swal("Thanks!", "I will respond you ASAP :)", "success")
         },
         filter: function() {
             return $(this).is(":visible");
