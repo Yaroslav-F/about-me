@@ -4,7 +4,7 @@ ruby "2.0.0"
 gem "sinatra", "~> 1.4"
 gem 'puma'
 gem 'sinatra-partial'
-gem "actionmailer", require: "action_mailer"
+gem 'pony', git: "https://github.com/benprew/pony"
 
 group :development do
   gem "rake", "~> 10.0"
