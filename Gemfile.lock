@@ -47,3 +47,6 @@ DEPENDENCIES
   rake (~> 10.0)
   sinatra (~> 1.4)
   sinatra-partial
+
+BUNDLED WITH
+   1.10.6
